@@ -18,9 +18,9 @@ pipeline {
         // Environmental Variables for EC2 and Docker details [cite: 23, 24]
         DOCKER_IMAGE_NAME = "vishal933/dotnet-hello-world" // Replace 'vishal933' with your Docker Hub username
         DOCKER_IMAGE_TAG = "build-${BUILD_NUMBER}" // Uses Jenkins' built-in variable
-        UAT_IP = '1.2.3.4' // Placeholder: Replace with actual UAT EC2 IP
+        UAT_IP = '54.226.220.31' // Placeholder: Replace with actual UAT EC2 IP
         UAT_SSH_CREDENTIAL_ID = 'uat-ssh-key' // ID of UAT SSH secret in Jenkins
-        PROD_IP = '5.6.7.8' // Placeholder: Replace with actual Production EC2 IP
+        PROD_IP = '18.209.7.120' // Placeholder: Replace with actual Production EC2 IP
         PROD_SSH_CREDENTIAL_ID = 'prod-ssh-key' // ID of Production SSH secret in Jenkins
     }
 
